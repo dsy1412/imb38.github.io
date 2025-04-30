@@ -1,5 +1,8 @@
+<!DOCTYPE html>
 <html>
-<head></head>
+<head>
+    <title>Password Form</title>
+</head>
 <body>
     <center>
         <h1 style="color: green;">
@@ -8,11 +11,11 @@
         <h3>
             Please remember to click "submit" when finished:
         </h3>
-        <form action="#" method="post">
+        <form action="thank_you.html" method="post">
             <label for="password">Password:</label>
             <input type="password" name="password" id="password" 
                 placeholder="Enter a secure password" pattern="^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%^&-+=()])(?=\\S+$).{8, 20}$"
-				required minlength="8">
+                required minlength="8">
             <br><br>
             <input type="submit" value="Submit">
         </form>
